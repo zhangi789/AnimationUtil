@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/mFrame"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="帧动画" />
+
+
+    <Button
+        android:id="@+id/mTween"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@+id/mFrame"
+        android:text="XML实现补间动画" />
+
+
+    <Button
+
+        android:id="@+id/mCodeTween"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@+id/mTween"
+        android:text="代码实现补间动画" />
+
+
+
+
+    <Button
+
+        android:id="@+id/mProperty"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@+id/mCodeTween"
+        android:text="属性动画" />
+
+
+</RelativeLayout>
